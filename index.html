@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //  x = 5; 
+        // console.log(x)
+        // let x;
+
+        async function xyz(){
+            let obj = {
+                name:"abc",
+                email:"abc@gmail.com",
+                password:"1234567"
+            }
+
+            let res = await fetch('http//.....',{
+                method:"PUT",
+                headers:{
+                    'content-type':'application/json',
+                    'authretization':"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmQ2YzU3MTJlYzNkMzIyMGY4ZTA3ODIiLCJpYXQiOjE3MjU0MzMzMTF9.S2j0SBTTLkOHoIatYucXSdbtM9rTOl-1Wgaw3ABeRxM "                    
+                }
+            })
+        }
+        xyz()
+    </script>
+</body>
+</html>
